@@ -17,13 +17,13 @@
       }
 
       .container {
-        background-color: black;
+        background-color: white;
         width: 100vw;
         height: 100vh;
 
         display: grid;
         grid-gap: 5px;
-        grid-template: 1fr 1fr/1fr 1fr 1fr;
+        grid-template-columns: repeat(auto-fit, minmax(560px, 1fr));
 
         /*
           grid-template-rows: 1fr 1fr 1fr;
@@ -40,75 +40,87 @@
         height: 100%;
       }
 
-      @media (min-width: 120px) and (max-width: 767px) {
-        .container {
-          overflow: auto;
-          grid-template: 1fr 1fr 1fr 1fr 1fr 1fr / 1fr;
-        }
+      .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
       }
     </style>
   </head>
 
   <body>
     <div class="container">
-      <div>
+      <div class="center">
+        <h1>Teste</h1>
+        <br />
+        <input type="text" name="" id="" />
         <h1>Teste</h1>
         <br />
         <h1>Teste</h1>
         <br />
+        <input type="text" name="" id="" />
+        <h1>Teste</h1>
+        <br />
+      </div>
+      <div class="center">
+        <h1>Teste</h1>
+        <br />
+        <input type="text" name="" id="" />
         <h1>Teste</h1>
         <br />
         <h1>Teste</h1>
         <br />
-      </div>
-      <div>
-        <h1>Teste2</h1>
-        <br />
-        <h1>Teste2</h1>
-        <br />
-        <h1>Teste2</h1>
-        <br />
-        <h1>Test2e</h1>
+        <input type="text" name="" id="" />
+        <h1>Teste</h1>
         <br />
       </div>
-      <div>
-        <h1>Teste2</h1>
+      <div class="center">
+        <h1>Teste</h1>
         <br />
-        <h1>Teste2</h1>
+        <input type="text" name="" id="" />
+        <h1>Teste</h1>
         <br />
-        <h1>Teste2</h1>
+        <h1>Teste</h1>
         <br />
-        <h1>Test2e</h1>
-        <br />
-      </div>
-      <div>
-        <h1>Teste2</h1>
-        <br />
-        <h1>Teste2</h1>
-        <br />
-        <h1>Teste2</h1>
-        <br />
-        <h1>Test2e</h1>
+        <input type="text" name="" id="" />
+        <h1>Teste</h1>
         <br />
       </div>
-      <div>
-        <h1>Teste2</h1>
+      <div class="center">
+        <h1>Teste</h1>
         <br />
-        <h1>Teste2</h1>
+        <input type="text" name="" id="" />
+        <h1>Teste</h1>
         <br />
-        <h1>Teste2</h1>
+        <h1>Teste</h1>
         <br />
-        <h1>Test2e</h1>
+        <input type="text" name="" id="" />
+        <h1>Teste</h1>
         <br />
       </div>
-      <div>
-        <h1>Teste2</h1>
+      <div class="center">
+        <h1>Teste</h1>
         <br />
-        <h1>Teste2</h1>
+        <input type="text" name="" id="" />
+        <h1>Teste</h1>
         <br />
-        <h1>Teste2</h1>
+        <h1>Teste</h1>
         <br />
-        <h1>Test2e</h1>
+        <input type="text" name="" id="" />
+        <h1>Teste</h1>
+        <br />
+      </div>
+      <div class="center">
+        <h1>Teste</h1>
+        <br />
+        <input type="text" name="" id="" />
+        <h1>Teste</h1>
+        <br />
+        <h1>Teste</h1>
+        <br />
+        <input type="text" name="" id="" />
+        <h1>Teste</h1>
         <br />
       </div>
     </div>
